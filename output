@@ -1,0 +1,94 @@
+ 0   Age                       1470 non-null   int64 
+ 1   Attrition                 1470 non-null   object
+ 2   BusinessTravel            1470 non-null   object
+ 3   DailyRate                 1470 non-null   int64 
+ 4   Department                1470 non-null   object
+ 5   DistanceFromHome          1470 non-null   int64 
+ 6   Education                 1470 non-null   int64 
+ 7   EducationField            1470 non-null   object
+ 8   EmployeeCount             1470 non-null   int64 
+ 9   EmployeeNumber            1470 non-null   int64 
+ 10  EnvironmentSatisfaction   1470 non-null   int64 
+ 11  Gender                    1470 non-null   object
+ 12  HourlyRate                1470 non-null   int64 
+ 13  JobInvolvement            1470 non-null   int64 
+ 14  JobLevel                  1470 non-null   int64 
+ 15  JobRole                   1470 non-null   object
+ 16  JobSatisfaction           1470 non-null   int64 
+ 17  MaritalStatus             1470 non-null   object
+ 18  MonthlyIncome             1470 non-null   int64 
+ 19  MonthlyRate               1470 non-null   int64 
+ 20  NumCompaniesWorked        1470 non-null   int64 
+ 21  Over18                    1470 non-null   object
+ 22  OverTime                  1470 non-null   object
+ 23  PercentSalaryHike         1470 non-null   int64 
+ 24  PerformanceRating         1470 non-null   int64 
+ 25  RelationshipSatisfaction  1470 non-null   int64 
+ 26  StandardHours             1470 non-null   int64 
+ 27  StockOptionLevel          1470 non-null   int64 
+ 28  TotalWorkingYears         1470 non-null   int64 
+ 29  TrainingTimesLastYear     1470 non-null   int64 
+ 30  WorkLifeBalance           1470 non-null   int64 
+ 31  YearsAtCompany            1470 non-null   int64 
+ 32  YearsInCurrentRole        1470 non-null   int64 
+ 33  YearsSinceLastPromotion   1470 non-null   int64 
+ 34  YearsWithCurrManager      1470 non-null   int64 
+dtypes: int64(26), object(9)
+memory usage: 402.1+ KB
+None
+               Age    DailyRate  ...  YearsSinceLastPromotion  YearsWithCurrManager
+count  1470.000000  1470.000000  ...              1470.000000           1470.000000
+mean     36.923810   802.485714  ...                 2.187755              4.123129
+std       9.135373   403.509100  ...                 3.222430              3.568136
+min      18.000000   102.000000  ...                 0.000000              0.000000
+25%      30.000000   465.000000  ...                 0.000000              2.000000
+50%      36.000000   802.000000  ...                 1.000000              3.000000
+75%      43.000000  1157.000000  ...                 3.000000              7.000000
+max      60.000000  1499.000000  ...                15.000000             17.000000
+
+[8 rows x 26 columns]
+Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64
+100%|██████████| 294/294 [00:10<00:00, 27.66it/s]
+SHAP shape: (294, 48)
+X_test shape: (294, 48)
+
+🔍 Model Evaluation:
+Accuracy: 0.7517006802721088
+Confusion Matrix:
+ [[213  42]
+ [ 31   8]]
